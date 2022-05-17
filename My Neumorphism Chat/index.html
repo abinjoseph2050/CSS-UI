@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphism UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="neumorphism1">    <lord-icon
+            src="https://cdn.lordicon.com/qhgmphtg.json"
+            trigger="hover">
+        </lord-icon></div>
+
+        <div class="neumorphism2"><lord-icon
+    src="https://cdn.lordicon.com/kbtmbyzy.json"
+    trigger="hover"></lord-icon>
+</div>
+    </div>
+
+    <script>
+        let neumorphism1 = document.querySelector('.neumorphism1');
+        neumorphism1.onclick = function() {
+            neumorphism1.classList.toggle('clicked')
+        }
+
+        let neumorphism2 = document.querySelector('.neumorphism2');
+        neumorphism2.onclick = function() {
+            neumorphism2.classList.toggle('clicked')
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+
+</body>
+</html>
